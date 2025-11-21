@@ -4,8 +4,8 @@ import java.util.UUID;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.project.mailsender.domain.Email;
+import com.project.mailsender.domain.Message;
 
-public interface EmailRepository extends JpaRepository<Email, UUID> {
+public interface MessageRepository extends JpaRepository<Message, UUID> {
     
 }
